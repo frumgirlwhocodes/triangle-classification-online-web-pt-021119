@@ -10,7 +10,7 @@ class Triangle
   
   
   def kind()
-    if (@a+@b) <= @c || (@b+@C) <= @a
+    if (@a+@b) <= @c || (@b+@C) <= @a || (@b + @b) <= @b
     
   end
   class TriangleError < StandardError 
