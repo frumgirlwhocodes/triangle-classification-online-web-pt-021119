@@ -11,7 +11,7 @@ class Triangle
   
   def kind()
     if (@a+@b) <= @c || (@b+@C) <= @a || (@c + @a) <= @b
-      rias 
+      raise 
     
   end
   class TriangleError < StandardError 
