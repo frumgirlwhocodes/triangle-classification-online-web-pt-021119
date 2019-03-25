@@ -12,6 +12,7 @@ class Triangle
   def kind()
     if (a * b * c) == 0 || (a+b) <= c || (b+C) <= a || (c + a) <= b
       raise TriangleError
+      elsif 
     
   end
 end 
