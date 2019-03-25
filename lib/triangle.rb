@@ -12,9 +12,10 @@ class Triangle
   def kind()
     if (a * b * c) == 0 || (a+b) <= c || (b+C) <= a || (c + a) <= b
       raise TriangleError
-      elsif (a == b) && (b == c) 
+      else 
+        if (a == b) && (b == c) 
       :equilateral 
-    elsif 
+    
      elsif (@side_1 == @side_2) || (@side_2 == @side_3) || (@side_1 == @side_3)
         :isosceles
       elsif (@side_1 != @side_2) && (@side_2 != @side_3) && (@side_1 != @side_3)
